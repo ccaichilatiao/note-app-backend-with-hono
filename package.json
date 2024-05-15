@@ -1,0 +1,28 @@
+{
+  "name": "notes-app-hono",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "drizzle-kit": "^0.20.17"
+  },
+  "scripts": {
+    "start": "bun index.ts",
+    "dev": "bun --watch index.ts"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@hono/swagger-ui": "^0.2.2",
+    "@hono/zod-validator": "^0.2.1",
+    "@kinde-oss/kinde-typescript-sdk": "^2.9.0",
+    "@types/bcryptjs": "^2.4.6",
+    "drizzle-orm": "^0.30.10",
+    "drizzle-zod": "^0.5.1",
+    "hono": "^4.3.2",
+    "pg": "^8.11.5",
+    "postgres": "^3.4.4",
+    "zod": "^3.23.6"
+  }
+}

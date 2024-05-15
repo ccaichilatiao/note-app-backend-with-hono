@@ -1,0 +1,27 @@
+{
+  "version": "5",
+  "dialect": "pg",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1715001558898,
+      "tag": "0000_fearless_newton_destine",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1715094562649,
+      "tag": "0001_brief_james_howlett",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1715094740163,
+      "tag": "0002_modern_red_wolf",
+      "breakpoints": true
+    }
+  ]
+}
